@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #ffe0ec, #fff0f5);
+    color: #4b004b;
+    margin: 0;
+    padding: 0;
+}
+
+#weather-web {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffffdd; /* לבן שקוף ועדין */
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.2); /* ורוד כהה */
+    border: 2px solid #ffc0cb; /* ורוד עדין */
+}
+
+/* כותרת ראשית */
+h1 {
+    text-align: center;
+    color: #004466;
+}
+
+/* שדה קלט */
+.city-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.city-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+.city-input button {
+    padding: 10px;
+    background-color: #ff69b4; /* ורוד בולט */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.city-input button:hover {
+    background-color: #ff1493; /* ורוד כהה יותר */
+}
+
+#weather-display p {
+    font-size: 18px;
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+h1 {
+    text-align: center;
+    color: #d1006f;
+    font-weight: bold;
+    font-size: 32px;
+    text-shadow: 1px 1px 3px #ffc0cb;
+}
+
+#weather-icon {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100px;
+    height: auto;
+}
